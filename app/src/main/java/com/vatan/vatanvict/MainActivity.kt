@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         val wordList = db.getAllRecord()
 
         //attach arrayadapter
-        val wordArrayAdapter = ArrayAdapter(this, android.R.layout.simple_expandable_list_item_2, wordList)
+        val wordArrayAdapter = ArrayAdapter(this, android.R.layout.simple_expandable_list_item_1, wordList)
         listView.adapter = wordArrayAdapter
 
         //search query operation

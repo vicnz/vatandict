@@ -1,10 +1,8 @@
 package com.vatan.vatanvict
 
 import android.content.Intent
-import android.content.res.Resources
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.*
 
 class MainActivity : AppCompatActivity() {

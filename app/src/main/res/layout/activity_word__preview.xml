@@ -23,6 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
         android:layout_marginTop="150dp"
+        android:fontFamily="@font/polly"
         android:text="TextView"
         android:textColor="#FFFFFF"
         android:textSize="40sp"
@@ -35,6 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
         android:layout_marginTop="5dp"
+        android:fontFamily="@font/polly"
         android:text="TextView"
         android:textColor="#E1E1E1"
         android:textSize="14sp"
@@ -62,7 +64,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginHorizontal="25dp"
-                android:layout_marginVertical="10dp">
+                android:layout_marginVertical="10dp"
+                app:cardElevation="4dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -76,15 +79,24 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/polly"
                         android:text="DEFINITION"
                         android:textColor="#7F60BD"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
+                    <View
+                        android:id="@+id/divider"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?android:attr/listDivider" />
+
                     <TextView
                         android:id="@+id/definitionText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/polly"
                         android:text="TextView"
                         android:textColor="#939393"
                         android:textSize="18sp" />
@@ -95,14 +107,16 @@
                 android:id="@+id/divider2"
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
-                android:layout_marginHorizontal="75dp"
+                android:layout_marginHorizontal="90dp"
+                android:layout_marginVertical="5dp"
                 android:background="@drawable/divider_background" />
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginHorizontal="25dp"
-                android:layout_marginVertical="10dp">
+                android:layout_marginVertical="10dp"
+                app:cardElevation="4dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -116,15 +130,24 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/polly"
                         android:text="EXAMPLE"
                         android:textColor="#7F60BD"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
+                    <View
+                        android:id="@+id/divider3"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?android:attr/listDivider" />
+
                     <TextView
                         android:id="@+id/exampleTextView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/polly"
                         android:text="TextView"
                         android:textColor="#939393"
                         android:textSize="18sp" />
